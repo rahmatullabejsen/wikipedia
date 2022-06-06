@@ -1,0 +1,46 @@
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+}
+
+.translation {
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+.main-text {
+  color: white;
+
+  background: url(pexels-photo-3530056.jpeg);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: animate 15s infinite ease-in-out;
+}
+
+@keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+}
+
+p {
+  text-align: center;
+}
+
+h3 {
+  color: red;
+}
